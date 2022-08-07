@@ -27,10 +27,18 @@ const Container = styled.div`
  margin-left: 25px;
  padding: 5px;
  `
+const Input = styled.input`
+  border: none;
+`
 
  const Center = styled.div`
  flex: 1;
  `
+const Logo = styled.h1`
+  font-weight: bold;
+  
+  `
+
  const Right = styled.div`
  flex: 1;
  `
@@ -42,11 +50,11 @@ const Navbar = () => {
         <Left>
             <Language>EN</Language>
             <SearchContainer>
-                input
+                <Input />
                 <Search />
             </SearchContainer>
         </Left>
-        <Center>Center</Center>
+        <Center><Logo>Bargin Store</Logo></Center>
         <Right>Right</Right>
      </Wrapper>
     </Container>
