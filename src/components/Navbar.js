@@ -10,12 +10,13 @@ const Container = styled.div`
  padding: 10px 20px;
  display: flex;
  align-items: center;
- justify-content: space-between
+ justify-content: space-between;
  ` 
  const Left = styled.div`
  flex: 1;
  display: flex;
  align-items: center;
+ margin-bottom: 30px;
  `
  const Language = styled.span`
   font-size: 14px;
@@ -35,10 +36,11 @@ const Input = styled.input`
  const Center = styled.div`
  flex: 1;
  text-align: center;
+ justify-content: center;
+ 
  `
 const Logo = styled.h1`
-  font-weight: bold;
-  
+  font-weight: bold; 
   `
 
  const Right = styled.div`
@@ -46,6 +48,7 @@ const Logo = styled.h1`
  display: flex;
  align-items: center;
  justify-content: flex-end;
+ margin-bottom: 30px;
  `
  const MenuItem = styled.div`
  font-size: 14px;
